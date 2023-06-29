@@ -1,5 +1,5 @@
 # What is it?
-This system is an automated trading system that integrates Binance and Glassnode datasets, conducts data preprocessing, utilizes linear regression for model training, evaluates model performance across various parameters, and enables seamless deployment in a live trading environment using Docker.
+This system is an automated trading system that integrates Binance and Glassnode datasets, implements data preprocessing, does feature extraction, utilizes linear regression for model training, evaluates model performance across various parameters, and enables easy deployment in a live trading environment using Docker.
 
 # Features
 1. Automated data scraping from Binance public data-library
