@@ -21,6 +21,7 @@ Live test bot deployed using $25 balance: http://52.195.167.170/
       
 4. `pip install -r requirements.txt`
 5. `python main.py`
+6. Run for desired number of epochs, you can test the models while it is training by using `python backtest.py {model_epoch_number}`, more details: `python backtest.py --help`
 
 # Backtest/Validate models (dependencies must be installed)
 
