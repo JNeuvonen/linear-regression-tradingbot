@@ -10,6 +10,8 @@ Live test bot deployed using $25 balance: http://52.195.167.170/
 4. Automatically starts training the model with the desired features using linear regression.
 5. Automatically compare epochs performance on an out-of-sample backtest with different strategy parameters and save the models that perform within the top 5% in the out-of-sample backtest.
 6. Deploy the automated trading system easily in a live environment using Docker.
+7. Easily customizable & trained for all cryptocurrencies that are traded on Binance
+8. Features ares easy to tweak, or drop.
 
 # Run
 
