@@ -1,3 +1,6 @@
+# What is it?
+This system is an automated trading system that integrates Binance and Glassnode datasets, conducts data preprocessing, utilizes linear regression for model training, evaluates model performance across various parameters, and enables seamless deployment in a live trading environment using Docker.
+
 # Features
 1. Automated data scraping from Binance public data-library
 2. Support for glassnode datasets by adding glassnode datasets to dir "glassnode_data" in the project root, and the dataset's desired features get automatically added to the final training dataset.
