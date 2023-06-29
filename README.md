@@ -1,5 +1,5 @@
 # What is it?
-This system is an automated trading system that integrates Binance and Glassnode datasets, implements data preprocessing and feature extraction, utilizes linear regression for model training, evaluates model performance across various parameters, and enables easy deployment in a live trading environment using Docker. It is something that I hacked together in two weeks since I wanted to learn about ML & MLops.
+This system is an automated trading system that integrates Binance and Glassnode datasets, implements data preprocessing and feature extraction, utilizes linear regression for model training, evaluates model performance across various parameters, and enables easy deployment in a live trading environment using Docker. The project is something that I hacked together in two weeks since I wanted to learn about ML & MLops, not anything I would pursue seriously.
 
 Live test bot deployed using $25 balance: http://52.195.167.170/
 
