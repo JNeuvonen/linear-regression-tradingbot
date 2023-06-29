@@ -16,7 +16,7 @@ Live test bot deployed using $25 balance: http://52.195.167.170/
 # Run
 
 1. `cd src`
-2. `python3 -m venv env`
+2. `python -m venv env`
 3. activate env
     1. mac/linux: `source env/bin/activate`
     2. windows: `env\Scripts\activate`
