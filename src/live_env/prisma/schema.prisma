@@ -1,0 +1,25 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider             = "prisma-client-py"
+    recursive_type_depth = 5
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model TradingStrategy {
+    id                    Int      @id @default(autoincrement())
+    strategy_id           String   @unique
+    position_type         String?
+    profit                Float?
+    current_bet           Float?
+    strategy_init_balance Float
+    strategy_curr_balance Float
+    latest_log_message    String
+    latest_prediction     Float
+    updated_at            DateTime @updatedAt
+}

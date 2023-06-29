@@ -1,0 +1,8 @@
+venv
+env
+node_module
+all_models
+best_long_only_models
+best_short_only_models
+best_long_short_models
+.env
