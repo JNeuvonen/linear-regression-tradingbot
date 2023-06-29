@@ -181,9 +181,15 @@ def train():
 
 
 def get_glassnode_data_paths():
+    folder_path = "../glassnode_data/"
+
+    if not os.path.isdir(folder_path):
+        print("Warning: Glassnode data is missing. Is this intentional?")
+        return []
+
     ret = []
-    for filename in os.listdir("../glassnode_data/"):
-        ret.append("../glassnode_data/" + filename)
+    for filename in os.listdir(folder_path):
+        ret.append(os.path.join(folder_path, filename))
 
     return ret
 
