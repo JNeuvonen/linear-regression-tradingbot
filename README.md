@@ -24,3 +24,8 @@ Live test bot deployed using $25 balance: http://52.195.167.170/
 
 # Backtest/Validate models (dependencies must be installed)
 
+1. `cd src`
+2. `python backtest.py {model_epoch_number}`
+
+More details: `python backtest.py --help`
+
